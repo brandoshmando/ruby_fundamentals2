@@ -10,11 +10,13 @@ def print_list(items)
 	end
 end
 
-list = ["bananas", "milk", "jalepenos", "chocolate", "more chocolate"]
+list = ["bananas", "milk", "jalepenos", "salmon", "chocolate", "more chocolate"]
 print_list(list)
-
+puts
 list.push("rice")
 print_list(list)
 puts
-puts
 puts "The second item on the list is #{list[1]}!"
+puts
+list.delete(list[3])
+print_list(list)
