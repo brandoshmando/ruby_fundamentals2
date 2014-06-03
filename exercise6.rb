@@ -3,12 +3,14 @@ def print_list(items)
 	items.each do |element|
 		puts "*#{element}"
 	end
-	if !items.include?("bananas")
+	if items.include?("bananas")
+		puts "Already have plenty of bananas"
+	else
 		puts "You need bananas though..."
 	end
 end
 
-list = ["milk", "jalepenos", "chocolate", "more chocolate"]
+list = ["bananas", "milk", "jalepenos", "chocolate", "more chocolate"]
 print_list(list)
 
 list.push("rice")
