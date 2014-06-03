@@ -15,3 +15,6 @@ print_list(list)
 
 list.push("rice")
 print_list(list)
+puts
+puts
+puts "The second item on the list is #{list[1]}!"
