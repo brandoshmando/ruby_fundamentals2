@@ -1,6 +1,6 @@
 def display_cohorts(hash)
 	hash.each do |key, value|
-		puts "#{key}: #{value * 1.05}"
+		puts "#{key}: #{value*1.05}"
 	end
 end
 
@@ -16,3 +16,6 @@ students[:cohort4] = 43
 display_cohorts(students)
 puts
 students.keys
+puts
+students.delete (:cohort2)
+display_cohorts(students)
