@@ -1,4 +1,5 @@
 def print_list(items)
+	puts "There are #{items.size} items on your list. Count em up!"
 	items.each do |element|
 		puts "*#{element}"
 	end
