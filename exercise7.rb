@@ -1,6 +1,6 @@
 def display_cohorts(hash)
 	hash.each do |key, value|
-		puts "#{key}: #{value}"
+		puts "#{key}: #{value * 1.05}"
 	end
 end
 
